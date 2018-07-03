@@ -3,7 +3,7 @@ version: "3"
 services:
 
   ssr:
-    image: orvice/shadowsocksr
+    image: cool2645/shadowsocksrr
     restart: always
     volumes:
       - ./ssr/config.json:/usr/src/app/config.json
