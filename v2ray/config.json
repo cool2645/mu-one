@@ -15,7 +15,10 @@
       "clients": []
     },
     "streamSettings": {
-      "network": "tcp"
+      "network": "ws",
+      "wsSettings": {
+         "path": "/ws"
+      }
     },
     "tag": "proxy"
   },
