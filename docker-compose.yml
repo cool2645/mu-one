@@ -29,7 +29,7 @@ services:
 
 
   v2ray-mu:
-    image: orvice/v2ray-mu
+    image: zhouziqunzzq/v2ray-mu:latest
     restart: always
     volumes:
       - ./log/v2ray-mu:/var/log/v2ray-mu
